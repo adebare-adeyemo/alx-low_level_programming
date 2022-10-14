@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+/**
+*main - this is the begining point of the program
+*Return: this returns a value zero
+*/
+int main(void)
+{
+int n;
+}

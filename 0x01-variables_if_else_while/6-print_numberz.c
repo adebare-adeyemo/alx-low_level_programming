@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-int a = 0;
-for (; a < 10; a++)
+int a = 48;
+for (; a < 58; a++)
 putchar(a);
 putchar('\n');
 return (0);

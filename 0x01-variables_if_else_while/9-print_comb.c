@@ -1,15 +1,16 @@
 #include <stdio.h>
 /**
- * main - act as the beginning point of the program that prints all possible combinations of single-digit numbers
- * Return: Always 0 (Success)
- */
+* main - act as the beginning point of the program that
+*prints all possible combinations of single-digit numbers
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-int n;
-for (n = 48; n < 58; n++)
+int r;
+for (r = 48; r < 58; r++)
 {
-putchar(n);
-if (n != 57)
+putchar(r);
+if (r != 57)
 {
 putchar(',');
 putchar(' ');

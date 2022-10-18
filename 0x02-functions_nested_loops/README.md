@@ -9,7 +9,7 @@ Write a function that prints 10 times the alphabet, in lowercase, followed by a 
 
 Prototype: void print_alphabet_x10(void);
 You can only use _putchar twice in your code
-Solution: 2-print_alphabet_x10.c
+Solution: [2-print_alphabet_x10.c](https://github.com/Jadvdm/alx-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c)
 
 
 Write a function that checks for lowercase character.
@@ -17,7 +17,7 @@ Write a function that checks for lowercase character.
 Prototype: int _islower(int c);
 Returns 1 if c is lowercase
 Returns 0 otherwise
-Solution: 3-islower.c
+Solution: [3-islower.c](https://github.com/Jadvdm/alx-low_level_programming/blob/master/0x02-functions_nested_loops/3-islower.c)
 
 
 Write a function that checks for alphabetic character.
@@ -25,7 +25,7 @@ Write a function that checks for alphabetic character.
 Prototype: int _isalpha(int c);
 Returns 1 if c is a letter, lowercase or uppercase
 Returns 0 otherwise
-Solution: 4-isalpha.c
+Solution: [4-isalpha.c](https://github.com/Jadvdm/alx-low_level_programming/blob/master/0x02-functions_nested_loops/4-isalpha.c)
 
 
 Write a function that prints the sign of a number.

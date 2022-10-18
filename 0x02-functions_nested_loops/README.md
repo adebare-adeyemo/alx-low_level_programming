@@ -34,7 +34,7 @@ Prototype: int print_sign(int n);
 Returns 1 and prints + if n is greater than zero
 Returns 0 and prints 0 if n is zero
 Returns -1 and prints - if n is less than zero
-Solution: 5-sign.c
+Solution: [5-sign.c](https://github.com/Jadvdm/alx-low_level_programming/blob/master/0x02-functions_nested_loops/5-sign.c)
 
 There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
 

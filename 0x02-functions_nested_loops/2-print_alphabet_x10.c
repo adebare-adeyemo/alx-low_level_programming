@@ -4,19 +4,20 @@
 *print_alphabet_x10 - acts as the entry point
 *Return: zero always
 */
-Void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
-        char a;
-        int n = 0;
+	char c;
+	int i = 0;
 
-        while (n < 10)
-        {
-               for (a = 'a'; a <= 'z'; a++;)
-               {
-                      _putchar(a);
-               }
-        _putchar('\n');
-        i++;
+	while (i <= 9)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
 
-        }
+		_putchar('\n');
+
+		i++;
+	}
 }

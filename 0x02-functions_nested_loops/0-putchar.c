@@ -4,7 +4,7 @@
 *main - act as the beginning point of the putchar
 *Return: always zero
 */
-int _putchar(char c)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

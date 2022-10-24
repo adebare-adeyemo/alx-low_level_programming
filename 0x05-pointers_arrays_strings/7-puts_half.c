@@ -6,20 +6,29 @@
   *
   * Return: void
   */
-void puts2(char *str)
+void puts_half(char *str)
 {
-	int i;
-	int j = 0;
+	int len, n, i;
 
-	while (str[j] != '\0')
+	len = 0;
+
+	while (str[len] != '\0')
 	{
-		j++;
+		len++;
 	}
 
-	for (i = 0; i < j; i += 2)
+	if (len % 2 == 0)
 	{
-		_putchar(str[i]);
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	} else if (len % 2)
+	{
+		for (n = (len - 1) / 2; n < len - 1; n++)
+		{
+			_putchar(str[n + 1]);
+		}
 	}
-
 	_putchar('\n');
 }

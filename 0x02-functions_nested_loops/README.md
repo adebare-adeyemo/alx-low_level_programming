@@ -5,7 +5,7 @@ C supports nesting of loops in C. Nesting of loops is the feature in C that allo
 
 Any number of loops can be defined inside another loop, i.e., there is no restriction for defining any number of loops. The nesting level can be defined at n times.
  You can define any type of loop inside another loop; for example, you can define 'while' loop inside a 'for' loop.
-
+![nesting](https://cdn.educba.com/academy/wp-content/uploads/2020/02/nested-loop-in-c.jpg)
 # Project 
 
 10 x alphabet

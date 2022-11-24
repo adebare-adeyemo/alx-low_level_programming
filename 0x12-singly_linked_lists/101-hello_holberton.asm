@@ -1,14 +1,17 @@
-#include <stdio.h>
+section .text
+global main
 
-void first(void) __attribute__ ((constructor));
+main:
+	mov rax, 1
+	mov rdi, 1
+	mov rsi, msg
+	mov rdx, msglen
+	syscall
 
-/**
-  * first - ...
-  *
-  * Return: Nothing.
-  */
-void first(void)
-{
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
-}
+	mov rax, 60
+	mov rdi, 0
+	syscall
+
+section .rodata
+	msg: db "Hello, Holberton", 10
+	msglen: equ $ - msg
